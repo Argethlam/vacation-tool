@@ -168,7 +168,7 @@ class Absence implements BaseInterface, AbsenceInterface
 	 * Set one of available status - one of constants defined in class
 	 *
 	 * @param int $status
-	 * @access public
+	 * @access private
 	 * @return void
 	 */
 	private function setStatus($status)

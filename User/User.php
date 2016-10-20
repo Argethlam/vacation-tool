@@ -1,6 +1,6 @@
 <?php
 /**
- * Class User
+ * Class User represent an object of user with min functionality 
  *
  * @author Dalibor Stankovic <dalibor.stankovic87@gmail.com>
  * @since 15.10.2016.
@@ -188,6 +188,7 @@ class User implements BaseInterface
 	 * Method delete is used to remove users data from database for given user id
 	 *
 	 * @param int $userId
+	 * @access public
 	 * @return boolean - true if user is removed from database, otherwise false
 	 */
 	public function delete($userId)
